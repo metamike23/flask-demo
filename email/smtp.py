@@ -9,6 +9,11 @@ sender_email = "your_email@gmail.com"
 receiver_email = "recipient_email@example.com"
 password = "your_password"
 
+# SMTP_SERVER=mail.belto.site
+# SMTP_PORT=465
+# SMTP_USER=outreach@belto.site
+# SMTP_PASSWORD=pbJ01I$71TnR
+
 # Create the Email Object
 message = MIMEMultipart("alternative")
 message["From"] = sender_email
